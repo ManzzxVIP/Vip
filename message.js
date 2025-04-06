@@ -15,12 +15,12 @@ const { isUrl, getGroupAdmins, generateMessageTag, getBuffer, getSizeMedia, fetc
 const { jidNormalizedUser, proto, getBinaryNodeChildren, getBinaryNodeChild, generateMessageIDV2, jidEncode, encodeSignedDeviceIdentity, generateWAMessageContent, generateForwardMessageContent, prepareWAMessageMedia, delay, areJidsSameUser, extractMessageContent, generateMessageID, downloadContentFromMessage, generateWAMessageFromContent, jidDecode, generateWAMessage, toBuffer, getContentType, getDevice } = require('@whiskeysockets/baileys');
 
 /*
-	* Create By Xlesy
-	* Follow https://github.com/Gxyenn
-	* Whatsapp : https://whatsapp.com/channel/0029VaWOkNm7DAWtkvkJBK43
+	* Create By Manzzx
+
+
 */
 
-async function GroupUpdate(Xlesy, update, store, groupCache) {
+async function GroupUpdate(manzzx, update, store, groupCache) {
 	try {
 		for (let n of update) {
 			if (store.groupMetadata[n.id]) {
@@ -96,7 +96,7 @@ async function GroupParticipantsUpdate(Xlesy, { id, participants, author, action
 
 async function LoadDataBase(Xlesy, m) {
 	try {
-		const botNumber = await Xlesy.decodeJid(Xlesy.user.id);
+		const botNumber = await manzzx.decodeJid(manzzx.user.id);
 		const isNumber = x => typeof x === 'number' && !isNaN(x)
 		const isBoolean = x => typeof x === 'boolean' && Boolean(x)
 		let user = global.db.users[m.sender]
