@@ -6,5 +6,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log('Server anti-sleep aktif dijalankan> Please Follow Dev Yt Gxyenn');
+  console.log('Server anti-sleep aktif dijalankan> Please Follow Dev TT manzdemox11');
 })
