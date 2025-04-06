@@ -1,5 +1,5 @@
 {
-  "name": "Xlesy",
+  "name": "Manzzx",
   "version": "VIP",
   "description": "Bot WhatsApp Using Lib Baileys Multi Device",
   "main": "start.js",
@@ -14,7 +14,7 @@
     "bot-wa",
     "multi-device"
   ],
-  "author": "Gxyenn",
+  "author": "ManzzxD",
   "license": "MIT",
   "dependencies": {
     "@hapi/boom": "^10.0.0",
