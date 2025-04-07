@@ -14,7 +14,7 @@ This script is created by [Gxyenn](https://github.com/Gxyenn) using Node.js and 
 
 ## Contributor
 
-- [Gxyenn](https://github.com/Gxyenn) (Pembuat)
+- [Manzz](https://github.com/Gxyenn) (Pembuat)
 
 #### Join Group
 [![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vap5nJh2UPBDIc9bja1s) 
